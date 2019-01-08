@@ -17,9 +17,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8088/')
 
+WebUI.setText(findTestObject('Page_/input_Name_name'), 'Best')
+
 WebUI.click(findTestObject('Page_/button_Submit'))
 
-WebUI.verifyTextPresent('size must be between 2 and 30', false)
+WebUI.verifyTextPresent('must not be null', false)
 
 WebUI.closeBrowser()
 

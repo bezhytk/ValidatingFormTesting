@@ -13,3 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8088/')
+
+WebUI.setText(findTestObject('Page_/input_Name_name'), 'Best')
+
+WebUI.setText(findTestObject('Page_/input_Age_age'), 'xx')
+
+WebUI.click(findTestObject('Page_/button_Submit'))
+
+WebUI.verifyTextPresent('Failed to convert property value of type java.lang.String', false)
+
+WebUI.closeBrowser()
+

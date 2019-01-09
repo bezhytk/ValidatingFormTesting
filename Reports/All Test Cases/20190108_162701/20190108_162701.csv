@@ -1,0 +1,146 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+All Test Cases,Chrome 71.0.3578.98,,2019-01-08 16:27:03,2019-01-08 16:27:57,54.371s,FAILED
+,,,,,,
+Test Cases/Login Age by alphabet,Chrome 71.0.3578.98,,2019-01-08 16:27:03,2019-01-08 16:27:07,4.570s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:03,2019-01-08 16:27:06,3.084s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:06,2019-01-08 16:27:06,0.101s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:06,2019-01-08 16:27:07,0.149s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""xx"")",Chrome 71.0.3578.98,,2019-01-08 16:27:07,2019-01-08 16:27:07,0.087s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:07,2019-01-08 16:27:07,0.112s,PASSED
+"verifyTextPresent(""Failed to convert property value of type java.lang.String"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:07,2019-01-08 16:27:07,0.072s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:07,2019-01-08 16:27:07,0.642s,PASSED
+,,,,,,
+Test Cases/Login Empty Age,Chrome 71.0.3578.98,,2019-01-08 16:27:07,2019-01-08 16:27:11,3.120s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:08,2019-01-08 16:27:10,2.072s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:10,2019-01-08 16:27:10,0.088s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:10,2019-01-08 16:27:10,0.098s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:10,2019-01-08 16:27:10,0.087s,PASSED
+"verifyTextPresent(""must not be null"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:10,2019-01-08 16:27:10,0.040s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:10,2019-01-08 16:27:11,0.615s,PASSED
+,,,,,,
+Test Cases/Login Empty Name and Empty Age,Chrome 71.0.3578.98,,2019-01-08 16:27:11,2019-01-08 16:27:14,3.061s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:11,2019-01-08 16:27:13,2.117s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:13,2019-01-08 16:27:13,0.079s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:13,2019-01-08 16:27:13,0.087s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:13,2019-01-08 16:27:13,0.038s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:13,2019-01-08 16:27:14,0.618s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Age by alphabet,Chrome 71.0.3578.98,,2019-01-08 16:27:14,2019-01-08 16:27:17,3.190s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:14,2019-01-08 16:27:16,2.080s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:16,2019-01-08 16:27:16,0.084s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:16,2019-01-08 16:27:16,0.093s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""xx"")",Chrome 71.0.3578.98,,2019-01-08 16:27:16,2019-01-08 16:27:16,0.077s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:16,2019-01-08 16:27:16,0.089s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:16,2019-01-08 16:27:16,0.050s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:16,2019-01-08 16:27:17,0.615s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Age greater or equal to 18,Chrome 71.0.3578.98,,2019-01-08 16:27:17,2019-01-08 16:27:20,3.180s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:17,2019-01-08 16:27:19,2.078s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:19,2019-01-08 16:27:19,0.087s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:19,2019-01-08 16:27:19,0.088s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""30"")",Chrome 71.0.3578.98,,2019-01-08 16:27:19,2019-01-08 16:27:19,0.073s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:19,2019-01-08 16:27:19,0.103s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:19,2019-01-08 16:27:19,0.034s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:19,2019-01-08 16:27:20,0.616s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Age under 18,Chrome 71.0.3578.98,,2019-01-08 16:27:20,2019-01-08 16:27:23,3.140s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:20,2019-01-08 16:27:22,2.069s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:22,2019-01-08 16:27:22,0.071s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:22,2019-01-08 16:27:22,0.096s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""15"")",Chrome 71.0.3578.98,,2019-01-08 16:27:22,2019-01-08 16:27:22,0.077s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:22,2019-01-08 16:27:23,0.079s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:23,2019-01-08 16:27:23,0.036s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:23,2019-01-08 16:27:23,0.608s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Empty Age,Chrome 71.0.3578.98,,2019-01-08 16:27:23,2019-01-08 16:27:26,3.073s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:23,2019-01-08 16:27:25,2.064s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:25,2019-01-08 16:27:25,0.085s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:25,2019-01-08 16:27:26,0.087s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:26,2019-01-08 16:27:26,0.078s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:26,2019-01-08 16:27:26,0.037s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:26,2019-01-08 16:27:26,0.605s,PASSED
+,,,,,,
+Test Cases/Login Successful Case,Chrome 71.0.3578.98,,2019-01-08 16:27:26,2019-01-08 16:27:29,3.141s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:26,2019-01-08 16:27:28,2.064s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:28,2019-01-08 16:27:28,0.097s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:28,2019-01-08 16:27:29,0.093s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""30"")",Chrome 71.0.3578.98,,2019-01-08 16:27:29,2019-01-08 16:27:29,0.077s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:29,2019-01-08 16:27:29,0.074s,PASSED
+"verifyTextPresent(""Congratulations! You are old enough to sign up for this site."", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:29,2019-01-08 16:27:29,0.033s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:29,2019-01-08 16:27:29,0.607s,PASSED
+,,,,,,
+Test Cases/Login Age by alphabet,Chrome 71.0.3578.98,,2019-01-08 16:27:29,2019-01-08 16:27:32,3.040s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:29,2019-01-08 16:27:31,2.055s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:31,2019-01-08 16:27:32,0.084s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:32,0.094s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""xx"")",Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:32,0.072s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:32,0.077s,PASSED
+"verifyTextPresent(""Failed to convert property value of type java.lang.String"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:32,0.042s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:32,0.609s,PASSED
+,,,,,,
+Test Cases/Login Empty Age,Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:35,3.003s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:32,2019-01-08 16:27:35,2.077s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:35,0.085s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:35,0.099s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:35,0.076s,PASSED
+"verifyTextPresent(""must not be null"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:35,0.039s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:35,0.623s,PASSED
+,,,,,,
+Test Cases/Login Empty Name and Empty Age,Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:38,2.876s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:35,2019-01-08 16:27:37,2.050s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:37,2019-01-08 16:27:38,0.078s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:38,2019-01-08 16:27:38,0.082s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:38,2019-01-08 16:27:38,0.039s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:38,2019-01-08 16:27:38,0.609s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Age by alphabet,Chrome 71.0.3578.98,,2019-01-08 16:27:38,2019-01-08 16:27:41,3.062s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:38,2019-01-08 16:27:40,2.061s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:40,2019-01-08 16:27:40,0.084s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:40,2019-01-08 16:27:41,0.096s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""xx"")",Chrome 71.0.3578.98,,2019-01-08 16:27:41,2019-01-08 16:27:41,0.079s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:41,2019-01-08 16:27:41,0.086s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:41,2019-01-08 16:27:41,0.046s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:41,2019-01-08 16:27:41,0.605s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Age greater or equal to 18,Chrome 71.0.3578.98,,2019-01-08 16:27:41,2019-01-08 16:27:44,3.086s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:41,2019-01-08 16:27:43,2.089s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:43,2019-01-08 16:27:44,0.078s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:44,0.082s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""30"")",Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:44,0.074s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:44,0.090s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:44,0.035s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:44,0.632s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Age under 18,Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:48,3.084s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:44,2019-01-08 16:27:47,2.098s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:47,2019-01-08 16:27:47,0.084s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:47,2019-01-08 16:27:47,0.087s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""15"")",Chrome 71.0.3578.98,,2019-01-08 16:27:47,2019-01-08 16:27:47,0.075s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:47,2019-01-08 16:27:47,0.080s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:47,2019-01-08 16:27:47,0.039s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:47,2019-01-08 16:27:48,0.611s,PASSED
+,,,,,,
+Test Cases/Login Invalid Name and Empty Age,Chrome 71.0.3578.98,,2019-01-08 16:27:48,2019-01-08 16:27:51,3.046s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:48,2019-01-08 16:27:50,2.067s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:50,2019-01-08 16:27:50,0.083s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""B"")",Chrome 71.0.3578.98,,2019-01-08 16:27:50,2019-01-08 16:27:50,0.092s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:50,2019-01-08 16:27:50,0.089s,PASSED
+"verifyTextPresent(""size must be between 2 and 30"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:50,2019-01-08 16:27:50,0.037s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:50,2019-01-08 16:27:51,0.662s,PASSED
+,,,,,,
+Test Cases/Login Successful Case,Chrome 71.0.3578.98,,2019-01-08 16:27:51,2019-01-08 16:27:54,3.047s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:51,2019-01-08 16:27:53,2.062s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:53,2019-01-08 16:27:53,0.083s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:53,2019-01-08 16:27:53,0.102s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""30"")",Chrome 71.0.3578.98,,2019-01-08 16:27:53,2019-01-08 16:27:53,0.077s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:53,2019-01-08 16:27:53,0.086s,PASSED
+"verifyTextPresent(""Congratulations! You are old enough to sign up for this site."", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:53,2019-01-08 16:27:53,0.030s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 16:27:53,2019-01-08 16:27:54,0.603s,PASSED
+,,,,,,
+Test Cases/Login Age under 18,Chrome 71.0.3578.98,,2019-01-08 16:27:54,2019-01-08 16:27:56,2.760s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 16:27:54,2019-01-08 16:27:56,2.074s,PASSED
+"navigateToUrl(""http://localhost:8088/"")",Chrome 71.0.3578.98,,2019-01-08 16:27:56,2019-01-08 16:27:56,0.084s,PASSED
+"setText(findTestObject(""Page_/input_Name_name""), ""Best"")",Chrome 71.0.3578.98,,2019-01-08 16:27:56,2019-01-08 16:27:56,0.096s,PASSED
+"setText(findTestObject(""Page_/input_Age_age""), ""15"")",Chrome 71.0.3578.98,,2019-01-08 16:27:56,2019-01-08 16:27:56,0.074s,PASSED
+"click(findTestObject(""Page_/button_Submit""))",Chrome 71.0.3578.98,,2019-01-08 16:27:56,2019-01-08 16:27:56,0.086s,PASSED
+"verifyTextPresent(""must be greater than or equal to 18"", false)",Chrome 71.0.3578.98,,2019-01-08 16:27:56,2019-01-08 16:27:56,0.253s,FAILED

@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Page_/input_Age_age'), '15')
 
 WebUI.click(findTestObject('Page_/button_Submit'))
 
-WebUI.verifyTextPresent('must be greater than or equal to 18', false)
+WebUI.verifyTextPresent('must be greater than or equal to 25', false)
 
 WebUI.closeBrowser()
 

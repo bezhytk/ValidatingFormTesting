@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Test Cases" time="36" tests="9" failures="0" errors="0">
+   <testsuite name="All Test Cases" tests="9" failures="0" errors="0" time="36" timestamp="2019-01-09 17:51:34" hostname="LCNB-18091653$ - LCNB-18091653.mfec.co.th" id="Test Suites/All Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MFEC\\git\\ValidatingFormTesting\\Reports\\All Test Cases\\20190109_175132"/>
+         <property name="logFiles" value="C:\\Users\\MFEC\\git\\ValidatingFormTesting\\Reports\\All Test Cases\\20190109_175132\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LCNB-18091653$ - LCNB-18091653.mfec.co.th"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="d8b0bc06625910ebebfe9637f0c591b8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Age by alphabet" classname="Test Cases/Login Age by alphabet" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:34 - [TEST_CASE][PASSED] - Test Cases/Login Age by alphabet: Test Cases/Login Age by alphabet
+
+2019-01-09 17:51:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:51:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 17:51:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:51:38 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "Best"): Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:39 - [MESSAGE][PASSED] - Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Age_age"), "xx"): Text 'xx' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:39 - [MESSAGE][PASSED] - Text 'xx' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:39 - [TEST_STEP][PASSED] - verifyTextPresent("Failed to convert property value of type java.lang.String", false): Text 'Failed to convert property value of type java.lang.String' is present on page 
+
+2019-01-09 17:51:39 - [MESSAGE][PASSED] - Text 'Failed to convert property value of type java.lang.String' is present on page 
+
+2019-01-09 17:51:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:51:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Age under 18" classname="Test Cases/Login Age under 18" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:40 - [TEST_CASE][PASSED] - Test Cases/Login Age under 18: Test Cases/Login Age under 18
+
+2019-01-09 17:51:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:51:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:51:42 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "Best"): Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:42 - [MESSAGE][PASSED] - Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Age_age"), "15"): Text '15' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:43 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:43 - [TEST_STEP][PASSED] - verifyTextPresent("must be greater than or equal to 18", false): Text 'must be greater than or equal to 18' is present on page 
+
+2019-01-09 17:51:43 - [MESSAGE][PASSED] - Text 'must be greater than or equal to 18' is present on page 
+
+2019-01-09 17:51:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:51:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Empty Age" classname="Test Cases/Login Empty Age" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:44 - [TEST_CASE][PASSED] - Test Cases/Login Empty Age: Test Cases/Login Empty Age
+
+2019-01-09 17:51:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:51:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:51:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "Best"): Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:46 - [MESSAGE][PASSED] - Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:47 - [TEST_STEP][PASSED] - verifyTextPresent("must not be null", false): Text 'must not be null' is present on page 
+
+2019-01-09 17:51:47 - [MESSAGE][PASSED] - Text 'must not be null' is present on page 
+
+2019-01-09 17:51:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:51:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Empty Name and Empty Age" classname="Test Cases/Login Empty Name and Empty Age" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:47 - [TEST_CASE][PASSED] - Test Cases/Login Empty Name and Empty Age: Test Cases/Login Empty Name and Empty Age
+
+2019-01-09 17:51:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:51:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:51:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:50 - [TEST_STEP][PASSED] - verifyTextPresent("size must be between 2 and 30", false): Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:51:50 - [MESSAGE][PASSED] - Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:51:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:51:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Invalid Name and Age by alphabet" classname="Test Cases/Login Invalid Name and Age by alphabet" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:51 - [TEST_CASE][PASSED] - Test Cases/Login Invalid Name and Age by alphabet: Test Cases/Login Invalid Name and Age by alphabet
+
+2019-01-09 17:51:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:51:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:51:53 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "B"): Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:54 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Age_age"), "xx"): Text 'xx' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:54 - [MESSAGE][PASSED] - Text 'xx' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:54 - [TEST_STEP][PASSED] - verifyTextPresent("size must be between 2 and 30", false): Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:51:54 - [MESSAGE][PASSED] - Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:51:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:51:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Invalid Name and Age greater or equal to 18" classname="Test Cases/Login Invalid Name and Age greater or equal to 18" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:55 - [TEST_CASE][PASSED] - Test Cases/Login Invalid Name and Age greater or equal to 18: Test Cases/Login Invalid Name and Age greater or equal to 18
+
+2019-01-09 17:51:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:51:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:51:57 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "B"): Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:58 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:51:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Age_age"), "30"): Text '30' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:58 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:51:58 - [TEST_STEP][PASSED] - verifyTextPresent("size must be between 2 and 30", false): Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:51:58 - [MESSAGE][PASSED] - Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:51:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:51:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Invalid Name and Age under 18" classname="Test Cases/Login Invalid Name and Age under 18" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:51:59 - [TEST_CASE][PASSED] - Test Cases/Login Invalid Name and Age under 18: Test Cases/Login Invalid Name and Age under 18
+
+2019-01-09 17:51:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:51:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:52:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:52:01 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:52:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:52:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "B"): Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:52:02 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Age_age"), "15"): Text '15' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:52:02 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:52:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:52:02 - [TEST_STEP][PASSED] - verifyTextPresent("size must be between 2 and 30", false): Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:52:02 - [MESSAGE][PASSED] - Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:52:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:52:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Invalid Name and Empty Age" classname="Test Cases/Login Invalid Name and Empty Age" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:52:03 - [TEST_CASE][PASSED] - Test Cases/Login Invalid Name and Empty Age: Test Cases/Login Invalid Name and Empty Age
+
+2019-01-09 17:52:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:52:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:52:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:52:05 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:52:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "B"): Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:52:06 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:52:06 - [TEST_STEP][PASSED] - verifyTextPresent("size must be between 2 and 30", false): Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:52:06 - [MESSAGE][PASSED] - Text 'size must be between 2 and 30' is present on page 
+
+2019-01-09 17:52:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:52:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Successful Case" classname="Test Cases/Login Successful Case" status="PASSED">
+         <system-out><![CDATA[2019-01-09 17:52:07 - [TEST_CASE][PASSED] - Test Cases/Login Successful Case: Test Cases/Login Successful Case
+
+2019-01-09 17:52:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 17:52:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 17:52:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 17:52:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8088/"): Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:52:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8088/' successfully
+
+2019-01-09 17:52:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Name_name"), "Best"): Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:52:10 - [MESSAGE][PASSED] - Text 'Best' is set on object 'Object Repository/Page_/input_Name_name'
+
+2019-01-09 17:52:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_/input_Age_age"), "30"): Text '30' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:52:10 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Page_/input_Age_age'
+
+2019-01-09 17:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_/button_Submit")): Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Submit' is clicked on
+
+2019-01-09 17:52:10 - [TEST_STEP][PASSED] - verifyTextPresent("Congratulations! You are old enough to sign up for this site.", false): Text 'Congratulations! You are old enough to sign up for this site.' is present on page 
+
+2019-01-09 17:52:10 - [MESSAGE][PASSED] - Text 'Congratulations! You are old enough to sign up for this site.' is present on page 
+
+2019-01-09 17:52:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 17:52:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 17:51:34 - [TEST_SUITE][PASSED] - All Test Cases: Test Cases/Login Successful Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
